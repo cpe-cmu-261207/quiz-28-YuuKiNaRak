@@ -28,7 +28,7 @@
 
       <!-- made by -->
       <p class="text-center m-3 text-white fs-5 fst-italic">
-        made by Chayanin Suatap 123456789
+        made by Natchanon Nantasri 640612086
       </p>
 
       <!-- user card -->
@@ -40,10 +40,13 @@
           width="128"
         />
         <p id="p-name" class="text-center display-3 placeholder-glow">
-          Name...
+          resp.data.results[].name.title, resp.data.results[].name.first,
+          resp.data.results[].name.last
         </p>
-        <p id="p-address" class="text-center fs-5">Address...</p>
-        <p id="p-email" class="text-center fs-6">Email...</p>
+        <p id="p-address" class="text-center fs-5">
+          resp.data.results[].Address
+        </p>
+        <p id="p-email" class="text-center fs-6">resp.data.results[].Email</p>
         <button id="btn-random" class="btn btn-primary mx-auto d-block">
           Generate more ..
         </button>
@@ -54,7 +57,7 @@
         <p class="fst-italic text-center display-6">Loading Profile..</p>
       </div>
     </div>
-
+    5
     <script src="script.js"></script>
   </body>
 </html>
